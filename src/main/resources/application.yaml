@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: online-store
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:onlinestore
+  jpa:
+    show-sql: true
